@@ -9,5 +9,5 @@ import Foundation
 
 struct Brand: Codable, Identifiable {
     let id: Int
-    let Image: String
+    let image: String
 }
