@@ -33,6 +33,10 @@
 		69A1B7882B28E12D00219480 /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1B7872B28E12D00219480 /* BrandModel.swift */; };
 		69A1B78A2B28E1B700219480 /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1B7892B28E1B700219480 /* BrandItemView.swift */; };
 		69A1B78C2B28E37B00219480 /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1B78B2B28E37B00219480 /* BrandGridView.swift */; };
+		69A1B78E2B28F6A500219480 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1B78D2B28F6A500219480 /* ProductDetailView.swift */; };
+		69A1B7902B28F83700219480 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1B78F2B28F83700219480 /* NavigationBarDetailView.swift */; };
+		69A1B7922B28FABD00219480 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1B7912B28FABD00219480 /* HeaderDetailView.swift */; };
+		69A1B7942B28FC2700219480 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1B7932B28FC2700219480 /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,10 @@
 		69A1B7872B28E12D00219480 /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
 		69A1B7892B28E1B700219480 /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		69A1B78B2B28E37B00219480 /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		69A1B78D2B28F6A500219480 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		69A1B78F2B28F83700219480 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		69A1B7912B28FABD00219480 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		69A1B7932B28FC2700219480 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +141,7 @@
 			children = (
 				69404A202B236AE300EA82EC /* TouchdownApp.swift */,
 				69404A222B236AE300EA82EC /* ContentView.swift */,
+				69A1B78D2B28F6A500219480 /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -149,6 +158,9 @@
 		69404A3B2B23899300EA82EC /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				69A1B78F2B28F83700219480 /* NavigationBarDetailView.swift */,
+				69A1B7912B28FABD00219480 /* HeaderDetailView.swift */,
+				69A1B7932B28FC2700219480 /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -274,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				69A1B7742B28961300219480 /* CodableBundleExtension.swift in Sources */,
+				69A1B7922B28FABD00219480 /* HeaderDetailView.swift in Sources */,
+				69A1B7942B28FC2700219480 /* TopPartDetailView.swift in Sources */,
 				69404A232B236AE300EA82EC /* ContentView.swift in Sources */,
 				69A1B7702B288A2700219480 /* LogoView.swift in Sources */,
 				69404A432B238A7300EA82EC /* FooterView.swift in Sources */,
@@ -281,6 +295,8 @@
 				69404A212B236AE300EA82EC /* TouchdownApp.swift in Sources */,
 				69A1B78C2B28E37B00219480 /* BrandGridView.swift in Sources */,
 				69404A412B2389EA00EA82EC /* Constants.swift in Sources */,
+				69A1B78E2B28F6A500219480 /* ProductDetailView.swift in Sources */,
+				69A1B7902B28F83700219480 /* NavigationBarDetailView.swift in Sources */,
 				69A1B77E2B28C81000219480 /* CategoryGridView.swift in Sources */,
 				69A1B77A2B28C3DC00219480 /* CategoryModel.swift in Sources */,
 				69A1B76E2B2888CF00219480 /* NavigationBarView.swift in Sources */,
