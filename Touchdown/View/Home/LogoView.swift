@@ -18,7 +18,7 @@ struct LogoView: View {
             Image("logo-dark")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 14, height: 14, alignment: .center)
+                .frame(width: 30, height: 30, alignment: .center)
                 
             
             Text("Down".uppercased())
