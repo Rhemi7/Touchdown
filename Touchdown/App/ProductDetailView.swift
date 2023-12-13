@@ -31,7 +31,11 @@ struct ProductDetailView: View {
             
             // DETAL BOTTOM PART
             VStack (alignment: .center,spacing: 0, content: {
+                
                 // RATINGS + SIZES
+                RatingSizesDetailView()
+                    .padding(.top, -20)
+                    .padding(.bottom, 10)
                 
                 // DESCRIPTION
                 ScrollView(.vertical, showsIndicators: false, content: {
@@ -42,10 +46,13 @@ struct ProductDetailView: View {
                 }) //: SCROLL
                 
                 // QUANTITY + FAVORITE
+                QuantityFavoriteDetailView()
+                    .padding(.vertical, 10)
                 
                 // ADD TO CART
                 
-                Spacer()
+                AddToCartDetailView()
+                    .padding(.bottom, 20)
             }) //: VSTACK
             .padding(.horizontal)
             .background(Color.white
