@@ -41,6 +41,8 @@ struct ContentView: View {
                                 ForEach(products) { product in
                                     ProdiuctItemView(product: product)
                                         .onTapGesture {
+                                            feedback.impactOccurred()
+                                            
                                             withAnimation(.easeOut) {
                                                 shop.selectedProduct = product
                                                 shop.showingProduct = true
